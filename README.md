@@ -22,9 +22,17 @@ Developed by:
 RegisterNumber:  
 */
 ```
+def fun(a):
+    for i in range(10):
+        a=0.5*(a+b/a)
+    return a
+a=int(input())
+b=a
+print("Square root of the number:",fun(a))
+
 
 ## Output:
-![gcd of two number](gcd.png)
+![gcd of two number](squareoutput.png)
 
 
 ## Result:
